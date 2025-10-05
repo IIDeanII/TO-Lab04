@@ -10,7 +10,7 @@ Pool: Executors.newFixedThreadPool(...) es adecuado para CPU-bound en arquitectu
 ________________________________________________________________________
 Notas C++
 
-Compilar: g++ -std=c++17 -O2 -pthread trapezoideParalelo.cpp -o trapezoid
+Compilar: g++ -std=c++17 -O2 -pthread TrapezoideParalelo.cpp -o trapezoid
 
 Ejecutar: ./trapezoid
 
@@ -20,7 +20,7 @@ No se uso un thread pool estándar; para C++ moderno se puede implementar un poo
 _________________________________________________________________________
 Notas Go
 
-Compilar: go build trapecioParalelo.go 
+Compilar: go build TrapecioParalelo.go 
 
 Worker pool: usamos ranges channel para distribuir sub-rangos y results para recolectar sumas.
 
